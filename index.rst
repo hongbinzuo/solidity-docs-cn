@@ -6,70 +6,65 @@ Solidity
     :alt: Solidity logo
     :align: center
 
-Solidity is a contract-oriented, high-level language for implementing smart contracts.
-It was influenced by C++, Python and JavaScript
-and is designed to target the Ethereum Virtual Machine (EVM).
+Solidity是一门面向合约的、为实现智能合约而生的高级编程语言。这门语言受C++，Python和Javascript语言的影响，设计的目的是能在以太坊虚拟机（EVM）上运行。
 
-Solidity is statically typed, supports inheritance, libraries and complex
-user-defined types among other features.
+Solidity是静态类型语言，支持继承、库和复杂的用户定义类型等特性。
 
-As you will see, it is possible to create contracts for voting,
-crowdfunding, blind auctions, multi-signature wallets and more.
+下面您将会看到，使用Solidity语言，可以为投票、众筹、秘密竞价（盲拍）、多重签名的钱包以及其他事务创建合约。
 
 .. note::
-    The best way to try out Solidity right now is using
+    目前尝试Solidity编程的最好的方式是使用
     `Remix <https://remix.ethereum.org/>`_
-    (it can take a while to load, please be patient).
+    （需要一点时间加载，请耐心等待）。
 
 .. warning::
-    Since software is written by humans, it can have bugs. Thus, also
-    smart contracts should be created following well-known best-practices in
-    software development. This includes code review, testing, audits and correctness proofs.
-    Also note that users are sometimes more confident in code than its authors.
-    Finally, blockchains have their own things to watch out for, so please take
-    a look at the section :ref:`security_considerations`.
+    因为软件是人写的，就会有bug，所以，创建智能合约也应该遵循软件开发领域熟知的最佳实践。这些实践包括代码审查、测试、审计和正确性证明。
 
-Translations
+    同时也要注意：代码的用户有时比作者更有信心。
+    最后，区块链本身有些东西需要留意，请参考 :ref:`security_considerations`.
+
+翻译
 ------------
 
-This documentation is translated into several languages by community volunteers, but the English version stands as a reference.
+本文档被社区志愿者翻译成多种语言，但是英语版本作为主要参考。
 
+* `Simplified Chinese <http://solidity-documentation-simplified-chinese.rtfd.io/>`_
 * `Spanish <https://solidity-es.readthedocs.io>`_
-* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (rather outdated)
+* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (有点过时了)
 
 
-Useful links
+有用的链接
 ------------
 
 * `Ethereum <https://ethereum.org>`_
 
-* `Changelog <https://github.com/ethereum/solidity/blob/develop/Changelog.md>`_
+* `变更日志 <https://github.com/ethereum/solidity/blob/develop/Changelog.md>`_
 
-* `Story Backlog <https://www.pivotaltracker.com/n/projects/1189488>`_
+* `故事需求列表 <https://www.pivotaltracker.com/n/projects/1189488>`_
 
-* `Source Code <https://github.com/ethereum/solidity/>`_
+* `源代码 <https://github.com/ethereum/solidity/>`_
 
 * `Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_
 
-* `Gitter Chat <https://gitter.im/ethereum/solidity/>`_
+* `Gitter聊天 <https://gitter.im/ethereum/solidity/>`_
 
-Available Solidity Integrations
+可用的Solidity集成
 -------------------------------
 
 * `Remix <https://remix.ethereum.org/>`_
-    Browser-based IDE with integrated compiler and Solidity runtime environment without server-side components.
+    基于浏览器的IDE，集成了编译器和Solidity运行时环境，不需要服务端组件。
 
 * `IntelliJ IDEA plugin <https://plugins.jetbrains.com/plugin/9475-intellij-solidity>`_
-    Solidity plugin for IntelliJ IDEA (and all other JetBrains IDEs)
+    IntelliJ IDEA的Solidity插件（以及其他所有的JetBrains IDEs）
 
 * `Visual Studio Extension <https://visualstudiogallery.msdn.microsoft.com/96221853-33c4-4531-bdd5-d2ea5acc4799/>`_
-    Solidity plugin for Microsoft Visual Studio that includes the Solidity compiler.
+    Microsoft Visual Studio的Solidity插件，包含Solidity编译器。
 
 * `Package for SublimeText — Solidity language syntax <https://packagecontrol.io/packages/Ethereum/>`_
-    Solidity syntax highlighting for SublimeText editor.
+    SublimeText编辑器的语法高亮包。
 
 * `Etheratom <https://github.com/0mkara/etheratom>`_
-    Plugin for the Atom editor that features syntax highlighting, compilation and a runtime environment (Backend node & VM compatible).
+    Atom编辑器的插件，支持高亮、编译和运行时环境（后端节点，虚拟机兼容）。
 
 * `Atom Solidity Linter <https://atom.io/packages/linter-solidity>`_
     Plugin for the Atom editor that provides Solidity linting.
