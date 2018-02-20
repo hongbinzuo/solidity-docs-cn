@@ -10,27 +10,27 @@ Solidity是一门面向合约的、为实现智能合约而生的高级编程语
 
 Solidity是静态类型语言，支持继承、库和复杂的用户定义类型等特性。
 
-下面您将会看到，使用Solidity语言，可以为投票、众筹、秘密竞价（盲拍）、多重签名的钱包以及其他事务创建合约。
+下面您将会看到，使用Solidity语言，可以为投票、众筹、秘密竞价（盲拍）、多重签名的钱包以及其他应用创建合约。
 
 .. note::
     目前尝试Solidity编程的最好的方式是使用
     `Remix <https://remix.ethereum.org/>`_
-    （需要一点时间加载，请耐心等待）。
+    （需要时间加载，请耐心等待）。
 
 .. warning::
     因为软件是人写的，就会有bug，所以，创建智能合约也应该遵循软件开发领域熟知的最佳实践。这些实践包括代码审查、测试、审计和正确性证明。
 
     同时也要注意：代码的用户有时比作者更有信心。
-    最后，区块链本身有些东西需要留意，请参考 :ref:`security_considerations`.
+    最后，区块链本身有些东西需要留意，请参考 :ref:`security_considerations`。
 
 翻译
 ------------
 
-本文档被社区志愿者翻译成多种语言，但是英语版本作为主要参考。
+本文档由社区志愿者翻译成多种语言，但是英语版本作为主要参考。
 
 * `Simplified Chinese <http://solidity-documentation-simplified-chinese.rtfd.io/>`_
 * `Spanish <https://solidity-es.readthedocs.io>`_
-* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (有点过时了)
+* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (已过时)
 
 
 有用的链接
