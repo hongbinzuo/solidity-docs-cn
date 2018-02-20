@@ -28,9 +28,9 @@ Solidity是静态类型语言，支持继承、库和复杂的用户定义类型
 
 本文档由社区志愿者翻译成多种语言，但是英语版本作为主要参考。
 
-* `Simplified Chinese <http://solidity-documentation-simplified-chinese.rtfd.io/>`_
-* `Spanish <https://solidity-es.readthedocs.io>`_
-* `Russian <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (已过时)
+* `简体中文版 <http://solidity-documentation-simplified-chinese.rtfd.io/>`_
+* `西班牙语版 <https://solidity-es.readthedocs.io>`_
+* `俄语版 <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (已过时)
 
 
 有用的链接
@@ -55,7 +55,7 @@ Solidity是静态类型语言，支持继承、库和复杂的用户定义类型
     基于浏览器的IDE，集成了编译器和Solidity运行时环境，不需要服务端组件。
 
 * `IntelliJ IDEA plugin <https://plugins.jetbrains.com/plugin/9475-intellij-solidity>`_
-    IntelliJ IDEA的Solidity插件（以及其他所有的JetBrains IDEs）
+    IntelliJ IDEA的Solidity插件（可用于其他所有的JetBrains IDEs）
 
 * `Visual Studio Extension <https://visualstudiogallery.msdn.microsoft.com/96221853-33c4-4531-bdd5-d2ea5acc4799/>`_
     Microsoft Visual Studio的Solidity插件，包含Solidity编译器。
