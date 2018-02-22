@@ -138,7 +138,7 @@ Solidity工具列表
 
 最后也是最长的一节会深入讲解Solidity的所有方面。
 
-如果还有问题，你可以尝试搜索或在 `Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_上提问，或者到我们的
+如果还有问题，你可以尝试搜索或在 `Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_ 上提问，或者到我们的
 `gitter频道 <https://gitter.im/ethereum/solidity/>`_来。
 随时欢迎改善Solidity或本文档的想法！
 
