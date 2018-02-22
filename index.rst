@@ -128,13 +128,13 @@ Solidity工具列表
 语言文档
 ----------------------
 
-下面的页面中，我们首先会看到一个使用Solidity写的 :ref:`简单智能合约 <simple-smart-contract>`，随后讲解:ref:`区块链 <blockchain-basics>`基础，然后是
-:ref:`以太坊虚拟机 <the-ethereum-virtual-machine>`。
+下面的页面中，我们首先会看到一个使用Solidity写的 :ref:`简单智能合约 <simple-smart-contract>`，随后讲解 :ref:`区块链 <blockchain-basics>` 基础，然后是 
+:ref:`以太坊虚拟机 <the-ethereum-virtual-machine>` 。
 
-下一节会通过给出有用的
-:ref:`合约样例 <voting>`，解释Solidity的几个*特性*，
+下一节会通过给出有用的 
+:ref:`合约样例 <voting>` ，解释Solidity的几个*特性*，
 记住你都可以
-`在你的浏览器中 <https://remix.ethereum.org>`_尝试这些合约！
+`在你的浏览器中 <https://remix.ethereum.org>`_ 尝试这些合约！
 
 最后也是最长的一节会深入讲解Solidity的所有方面。
 
