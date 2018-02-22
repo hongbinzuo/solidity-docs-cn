@@ -6,7 +6,7 @@ Solidity
     :alt: Solidity logo
     :align: center
 
-Solidity是一门面向合约的、为实现智能合约而生的高级编程语言。这门语言受C++，Python和Javascript语言的影响，设计的目的是能在以太坊虚拟机（EVM）上运行。
+Solidity是一门面向合约的、为实现智能合约而创建的高级编程语言。这门语言受C++，Python和Javascript语言的影响，设计的目的是能在以太坊虚拟机（EVM）上运行。
 
 Solidity是静态类型语言，支持继承、库和复杂的用户定义类型等特性。
 
@@ -28,7 +28,7 @@ Solidity是静态类型语言，支持继承、库和复杂的用户定义类型
 
 本文档由社区志愿者翻译成多种语言，但是英语版本作为主要参考。
 
-* `简体中文版 <http://solidity-documentation-simplified-chinese.rtfd.io/>`_
+* `简体中文版 <https://solidity-doc-cn.readthedocs.io/>`_
 * `西班牙语版 <https://solidity-es.readthedocs.io>`_
 * `俄语版 <https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity>`_ (已过时)
 
@@ -67,82 +67,80 @@ Solidity是静态类型语言，支持继承、库和复杂的用户定义类型
     Atom编辑器的插件，支持高亮、编译和运行时环境（后端节点，虚拟机兼容）。
 
 * `Atom Solidity Linter <https://atom.io/packages/linter-solidity>`_
-    Plugin for the Atom editor that provides Solidity linting.
+    Atom编辑器的插件，提供Solidity语言的Lint检查（静态检查）。
 
 * `Atom Solium Linter <https://atom.io/packages/linter-solium>`_
-    Configurable Solidty linter for Atom using Solium as a base.
+    Atom的可配置的Solidty静态检查器，基于Solium。
 
 * `Solium <https://github.com/duaraghav8/Solium/>`_
-    Linter to identify and fix style and security issues in Solidity.
+    一种静态检查器，识别和修复Solidity中的风格以及安全问题。
     
 * `Solhint <https://github.com/protofire/solhint>`_
-    Solidity linter that provides security, style guide and best practice rules for smart contract validation.
+    一种静态检查器，提供安全和风格指南以及智能合约验证的最佳实践规则。
 
 * `Visual Studio Code extension <http://juan.blanco.ws/solidity-contracts-in-visual-studio-code/>`_
-    Solidity plugin for Microsoft Visual Studio Code that includes syntax highlighting and the Solidity compiler.
+    Microsoft Visual Studio Code插件，包含语法高亮和Solidity编译器。
 
 * `Emacs Solidity <https://github.com/ethereum/emacs-solidity/>`_
-    Plugin for the Emacs editor providing syntax highlighting and compilation error reporting.
+    Emacs编辑器的插件，提供语法高亮和编译错误报告。
 
 * `Vim Solidity <https://github.com/tomlion/vim-solidity/>`_
-    Plugin for the Vim editor providing syntax highlighting.
+    Vim编辑器的插件，提供语法高亮。
 
 * `Vim Syntastic <https://github.com/scrooloose/syntastic>`_
-    Plugin for the Vim editor providing compile checking.
+    Vim编辑器的插件，提供编译检查。
 
-Discontinued:
+停止使用:
 
 * `Mix IDE <https://github.com/ethereum/mix/>`_
-    Qt based IDE for designing, debugging and testing solidity smart contracts.
+    基于Qt的IDE，可以设计、调试和测试Solidity智能合约。
 
 * `Ethereum Studio <https://live.ether.camp/>`_		
-    Specialized web IDE that also provides shell access to a complete Ethereum environment.
+    专门的网页IDE，也提供一个完整以太坊环境的脚本访问。
 
-Solidity Tools
+Solidity工具列表
 --------------
 
 * `Dapp <https://dapp.readthedocs.io>`_
-    Build tool, package manager, and deployment assistant for Solidity.
+    Solidity语言的构建工具，包管理器以及部署助手。
 
 * `Solidity REPL <https://github.com/raineorshine/solidity-repl>`_
-    Try Solidity instantly with a command-line Solidity console.
+    一个命令行控制台，可以立刻尝试Solidity语言。
 
 * `solgraph <https://github.com/raineorshine/solgraph>`_
-    Visualize Solidity control flow and highlight potential security vulnerabilities.
+    可视化的Solidity控制流，并能标明潜在的安全漏洞。
 
 * `evmdis <https://github.com/Arachnid/evmdis>`_
-    EVM Disassembler that performs static analysis on the bytecode to provide a higher level of abstraction than raw EVM operations.
+    EVM反汇编程序，可以执行字节码的静态分析，能提供比EVM操作更高级的抽象。
 
 * `Doxity <https://github.com/DigixGlobal/doxity>`_
-    Documentation Generator for Solidity.
+    Solidity语言的文档生成器。
 
-Third-Party Solidity Parsers and Grammars
+第三方Solidity解析器和语法
 -----------------------------------------
 
 * `solidity-parser <https://github.com/ConsenSys/solidity-parser>`_
-    Solidity parser for JavaScript
+    JavaScript的Solidity解析器
 
 * `Solidity Grammar for ANTLR 4 <https://github.com/federicobond/solidity-antlr4>`_
-    Solidity grammar for the ANTLR 4 parser generator
+    ANTLR 4解析器生成器的Solidity语法
 
-Language Documentation
+语言文档
 ----------------------
 
-On the next pages, we will first see a :ref:`simple smart contract <simple-smart-contract>` written
-in Solidity followed by the basics about :ref:`blockchains <blockchain-basics>`
-and the :ref:`Ethereum Virtual Machine <the-ethereum-virtual-machine>`.
+下面的页面中，我们首先会看到一个使用Solidity写的 :ref:`简单智能合约 <simple-smart-contract>`，随后讲解:ref:`区块链 <blockchain-basics>`基础，然后是
+:ref:`以太坊虚拟机 <the-ethereum-virtual-machine>`。
 
-The next section will explain several *features* of Solidity by giving
-useful :ref:`example contracts <voting>`
-Remember that you can always try out the contracts
-`in your browser <https://remix.ethereum.org>`_!
+下一节会通过给出有用的
+:ref:`合约样例 <voting>`，解释Solidity的几个*特性*，
+记住你都可以
+`在你的浏览器中 <https://remix.ethereum.org>`_尝试这些合约！
 
-The last and most extensive section will cover all aspects of Solidity in depth.
+最后也是最长的一节会深入讲解Solidity的所有方面。
 
-If you still have questions, you can try searching or asking on the
-`Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_
-site, or come to our `gitter channel <https://gitter.im/ethereum/solidity/>`_.
-Ideas for improving Solidity or this documentation are always welcome!
+如果还有问题，你可以尝试搜索或在`Ethereum Stackexchange <https://ethereum.stackexchange.com/>`_上提问，或者到我们的
+`gitter频道 <https://gitter.im/ethereum/solidity/>`_来。
+随时欢迎改善Solidity或本文档的想法！
 
 Contents
 ========
