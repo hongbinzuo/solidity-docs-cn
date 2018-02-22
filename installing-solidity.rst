@@ -3,7 +3,7 @@
 .. _installing-solidity:
 
 ################################
-Installing the Solidity Compiler
+安装Solidity编译器
 ################################
 
 Versioning

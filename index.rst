@@ -36,7 +36,7 @@ Solidity是静态类型语言，支持继承、库和复杂的用户定义类型
 有用的链接
 ------------
 
-* `Ethereum <https://ethereum.org>`_
+* `以太坊官网 <https://ethereum.org>`_
 
 * `变更日志 <https://github.com/ethereum/solidity/blob/develop/Changelog.md>`_
 
@@ -132,7 +132,7 @@ Solidity工具列表
 :ref:`以太坊虚拟机 <the-ethereum-virtual-machine>` 。
 
 下一节会通过给出有用的 
-:ref:`合约样例 <voting>` ，解释Solidity的几个*特性*，
+:ref:`合约样例 <voting>` ，解释Solidity的几个*特性* ，
 记住你都可以
 `在你的浏览器中 <https://remix.ethereum.org>`_ 尝试这些合约！
 
@@ -142,7 +142,7 @@ Solidity工具列表
 `gitter频道 <https://gitter.im/ethereum/solidity/>`_ 来。
 随时欢迎改善Solidity或本文档的想法！
 
-Contents
+目录
 ========
 
 :ref:`Keyword Index <genindex>`, :ref:`Search Page <search>`
