@@ -6,7 +6,7 @@
 
 .. _commandline-compiler:
 
-Using the Commandline Compiler
+使用命令行编译器
 ******************************
 
 One of the build targets of the Solidity repository is ``solc``, the solidity commandline compiler.
@@ -41,7 +41,7 @@ If ``solc`` is called with the option ``--standard-json``, it will expect a JSON
 
 .. _compiler-api:
 
-Compiler Input and Output JSON Description
+编译器输入输出JSON描述
 ******************************************
 
 These JSON formats are used by the compiler API as well as are available through ``solc``. These are subject to change,

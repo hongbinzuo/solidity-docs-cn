@@ -32,7 +32,7 @@ As always, with open source documentation, please help us extend this section
 (especially, some examples would not hurt)!
 
 ********
-Pitfalls
+陷阱
 ********
 
 Private Information and Randomness
@@ -236,7 +236,7 @@ Minor Details
   be different, so if you use ``keccak256(msg.data)`` for anything, you will get different results.
 
 ***************
-Recommendations
+推荐做法
 ***************
 
 Restrict the Amount of Ether
@@ -293,7 +293,7 @@ a simple "give me back my money" contract.
 
 
 *******************
-Formal Verification
+形式化验证
 *******************
 
 Using formal verification, it is possible to perform an automated mathematical

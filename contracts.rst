@@ -1,7 +1,7 @@
 .. index:: ! contract
 
 ##########
-Contracts
+合约
 ##########
 
 Contracts in Solidity are similar to classes in object-oriented languages. They
