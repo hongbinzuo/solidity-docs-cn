@@ -6,7 +6,7 @@ This list was originally compiled by `fivedogit <mailto:fivedogit@gmail.com>`_.
 
 
 ***************
-Basic Questions
+基本问题
 ***************
 
 Example contracts
@@ -385,7 +385,7 @@ The correct way to do this is the following::
     }
 
 ******************
-Advanced Questions
+高级问题
 ******************
 
 How do you get a random number in a contract? (Implement a self-returning gambling contract.)

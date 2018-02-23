@@ -7,7 +7,7 @@
 .. _withdrawal_pattern:
 
 *************************
-Withdrawal from Contracts
+从合约中提款
 *************************
 
 The recommended method of sending funds after an effect
@@ -105,7 +105,7 @@ rest of the contract's workings.
 .. index:: access;restricting
 
 ******************
-Restricting Access
+限制访问
 ******************
 
 Restricting access is a common pattern for contracts.
@@ -213,7 +213,7 @@ in the next example.
 .. index:: state machine
 
 *************
-State Machine
+状态机
 *************
 
 Contracts often act as a state machine, which means

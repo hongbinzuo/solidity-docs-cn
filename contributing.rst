@@ -19,7 +19,7 @@ In particular, we need help in the following areas:
   `up-for-grabs <https://github.com/ethereum/solidity/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs>`_ which are
   meant as introductory issues for external contributors.
 
-How to Report Issues
+怎样报告问题
 ====================
 
 To report an issue, please use the
@@ -36,7 +36,7 @@ reporting issues, please mention the following details:
 Reducing the source code that caused the issue to a bare minimum is always
 very helpful and sometimes even clarifies a misunderstanding.
 
-Workflow for Pull Requests
+Pull Request的工作流
 ==========================
 
 In order to contribute, please fork off of the ``develop`` branch and make your
@@ -62,7 +62,7 @@ ensure that it builds locally before submitting a pull request.
 
 Thank you for your help!
 
-Running the compiler tests
+运行编译器测试
 ==========================
 
 Solidity includes different types of tests. They are included in the application

@@ -5,7 +5,7 @@
 #############
 
 ************
-Introduction
+概述
 ************
 
 This guide is intended to provide coding conventions for writing solidity code.
@@ -29,7 +29,7 @@ captures this concept well.
 
 
 ***********
-Code Layout
+代码结构
 ***********
 
 
@@ -653,7 +653,7 @@ No::
 
 
 ******************
-Naming Conventions
+命名规范
 ******************
 
 Naming conventions are powerful when adopted and used broadly.  The use of

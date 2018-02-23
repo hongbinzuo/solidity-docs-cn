@@ -69,7 +69,7 @@ and ``add`` to be available.
         }
     }
 
-Specification of JULIA
+JULIA语言说明
 ======================
 
 JULIA code is described in this chapter. JULIA code is usually placed into a JULIA object, which is described in the following chapter.
@@ -504,7 +504,7 @@ Backend: eWASM
 
 TBD
 
-Specification of JULIA Object
+JULIA对象说明
 =============================
 
 Grammar::
