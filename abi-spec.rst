@@ -6,7 +6,7 @@
 应用二进制接口说明
 ******************************************
 
-Basic Design
+基本设计
 ============
 
 The Application Binary Interface is the standard way to interact with contracts in the Ethereum ecosystem, both
@@ -19,19 +19,19 @@ This specification does not address contracts whose interface is dynamic or othe
 
 .. _abi_function_selector:
 
-Function Selector
+函数选择器（Function Selector）
 =================
 
 The first four bytes of the call data for a function call specifies the function to be called. It is the
 first (left, high-order in big-endian) four bytes of the Keccak (SHA-3) hash of the signature of the function. The signature is defined as the canonical expression of the basic prototype, i.e.
 the function name with the parenthesised list of parameter types. Parameter types are split by a single comma - no spaces are used.
 
-Argument Encoding
+参数编码（Encoding）
 =================
 
 Starting from the fifth byte, the encoded arguments follow. This encoding is also used in other places, e.g. the return values and also event arguments are encoded in the same way, without the four bytes specifying the function.
 
-Types
+类型
 =====
 
 The following elementary types exist:
@@ -78,7 +78,7 @@ It is possible to form tuples of tuples, arrays of tuples and so on.
 .. note::
     Solidity supports all the types presented above with the same names with the exception of tuples. The ABI tuple type is utilised for encoding Solidity ``structs``.
 
-Formal Specification of the Encoding
+编码的形式化说明
 ====================================
 
 We will now formally specify the encoding, such that it will have the following
@@ -167,7 +167,7 @@ on the type of ``X`` being
 
 Note that for any ``X``, ``len(enc(X))`` is a multiple of 32.
 
-Function Selector and Argument Encoding
+函数选择器和参数编码
 =======================================
 
 All in all, a call to the function ``f`` with parameters ``a_1, ..., a_n`` is encoded as
@@ -180,7 +180,7 @@ and the return values ``v_1, ..., v_k`` of ``f`` are encoded as
 
 i.e. the values are combined into a tuple and encoded.
 
-Examples
+例子
 ========
 
 Given the contract:
@@ -235,7 +235,7 @@ In total::
 
     0xa5643bf20000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000464617665000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003
 
-Use of Dynamic Types
+动态类型的使用
 ====================
 
 A call to a function with the signature ``f(uint,uint32[],bytes10,bytes)`` with values ``(0x123, [0x456, 0x789], "1234567890", "Hello, world!")`` is encoded in the following way:
@@ -274,7 +274,7 @@ All together, the encoding is (newline after function selector and each 32-bytes
       000000000000000000000000000000000000000000000000000000000000000d
       48656c6c6f2c20776f726c642100000000000000000000000000000000000000
 
-Events
+事件
 ======
 
 Events are an abstraction of the Ethereum logging/event-watching protocol. Log entries provide the contract's address, a series of up to four topics and some arbitrary length binary data. Events leverage the existing function ABI in order to interpret this (together with an interface spec) as a properly typed structure.
@@ -451,7 +451,7 @@ would result in the JSON:
 
 .. _abi_packed_mode:
 
-Non-standard Packed Mode
+非标准打包模式
 ========================
 
 Solidity supports a non-standard packed mode where:
