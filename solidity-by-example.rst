@@ -1,5 +1,5 @@
 ###################
-Solidity by Example
+根据例子学习Solidity
 ###################
 
 .. index:: voting, ballot

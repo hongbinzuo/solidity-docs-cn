@@ -1,7 +1,7 @@
 .. _security_considerations:
 
 #######################
-Security Considerations
+安全考量
 #######################
 
 While it is usually quite easy to build software that works as expected,

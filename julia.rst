@@ -1,5 +1,5 @@
 #################################################
-Joyfully Universal Language for (Inline) Assembly
+可用于（内联）装配的语言：Joyfully Universal Language
 #################################################
 
 .. _julia:
