@@ -7,7 +7,7 @@
 .. _voting:
 
 ******
-Voting
+投票
 ******
 
 The following contract is quite complex, but showcases
@@ -185,7 +185,7 @@ to vote to all participants. Can you think of a better way?
 .. index:: auction;blind, auction;open, blind auction, open auction
 
 *************
-Blind Auction
+秘密竞价（盲拍）
 *************
 
 In this section, we will show how easy it is to create a
@@ -519,7 +519,7 @@ high or low invalid bids.
 .. index:: purchase, remote purchase, escrow
 
 ********************
-Safe Remote Purchase
+安全的远程购买
 ********************
 
 ::
@@ -616,7 +616,7 @@ Safe Remote Purchase
     }
 
 ********************
-Micropayment Channel
+微支付通道
 ********************
 
 To be written.

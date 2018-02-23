@@ -1,5 +1,5 @@
 ********************************
-Layout of a Solidity Source File
+Solidity源代码文件结构
 ********************************
 
 Source files can contain an arbitrary number of contract definitions, include directives

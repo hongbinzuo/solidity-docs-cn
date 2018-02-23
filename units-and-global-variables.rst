@@ -1,5 +1,5 @@
 **************************************
-Units and Globally Available Variables
+单元和全局变量
 **************************************
 
 .. index:: wei, finney, szabo, ether

@@ -3,7 +3,7 @@
 .. _types:
 
 *****
-Types
+类型
 *****
 
 Solidity is a statically typed language, which means that the type of each

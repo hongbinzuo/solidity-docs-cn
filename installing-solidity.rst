@@ -6,7 +6,7 @@
 安装Solidity编译器
 ################################
 
-Versioning
+版本
 ==========
 
 Solidity versions follow `semantic versioning <https://semver.org>`_ and in addition to
@@ -68,7 +68,7 @@ Currently, the docker image only contains the compiler executable,
 so you have to do some additional work to link in the source and
 output directories.
 
-Binary Packages
+二进制包
 ===============
 
 Binary packages of Solidity are available at
@@ -147,7 +147,7 @@ Gentoo Linux also provides a solidity package that can be installed using ``emer
 
 .. _building-from-source:
 
-Building from Source
+从源代码编译
 ====================
 
 Clone the Repository
@@ -275,12 +275,12 @@ Alternatively, you can build for Windows on the command-line, like so:
 
     cmake --build . --config RelWithDebInfo
 
-CMake options
+CMake参数
 =============
 
 If you are interested what CMake options are available run ``cmake .. -LH``.
 
-The version string in detail
+版本号字符串详解
 ============================
 
 The Solidity version string contains four parts:
@@ -299,7 +299,7 @@ A release example: ``0.4.8+commit.60cc1668.Emscripten.clang``.
 
 A pre-release example: ``0.4.9-nightly.2017.1.17+commit.6ecb4aa3.Emscripten.clang``
 
-Important information about versioning
+版本信息详情
 ======================================
 
 After a release is made, the patch version level is bumped, because we assume that only
