@@ -102,7 +102,7 @@ Comments are of course also not permitted and used here only for explanatory pur
     includes a hash of all the sources used, a single whitespace change in any of the source
     codes will result in a different metadata, and subsequently a different bytecode.
 
-Encoding of the Metadata Hash in the Bytecode
+元数据哈希字节码的编码
 =============================================
 
 Because we might support other ways to retrieve the metadata file in the future,
@@ -117,7 +117,7 @@ to the end of the deployed bytecode::
 So in order to retrieve the data, the end of the deployed bytecode can be checked
 to match that pattern and use the Swarm hash to retrieve the file.
 
-Usage for Automatic Interface Generation and NatSpec
+自动化接口生成和NatSpec的使用方法
 ====================================================
 
 The metadata is used in the following way: A component that wants to interact
@@ -133,7 +133,7 @@ whenever they interact with the contract.
 
 Additional information about Ethereum Natural Specification (NatSpec) can be found `here <https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format>`_. 
 
-Usage for Source Code Verification
+源代码验证的使用方法
 ==================================
 
 In order to verify the compilation, sources can be retrieved from Swarm
